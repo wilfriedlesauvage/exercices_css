@@ -1,0 +1,24 @@
+.titregras{
+
+    font-weight: bold;
+}
+
+.motitalique{
+
+    font-style: italic;
+}
+
+.center{
+
+    text-align: center;
+}
+
+.red{
+
+    color: red;
+}
+
+.green{
+
+    color: rgb(0, 185, 0);
+}
