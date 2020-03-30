@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Exercice 8</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        
+        
+            <fieldset class="blue"><legend><b>Votre identité</b></legend>
+                <form method="POST" action="treatment.php">
+
+                <label for="Nom">1. Nom :</label>
+                <input type="text" id="nom" value="Nom" name="name"><br><br>
+
+                <label for="Prenom">2. Prénom :</label>
+                <input type="text" id="prenom" value="Prénom" name="nickname"><br><br>
+
+                <label for="Adressemail">3. Adresse mail :</label>
+                <input type="email" id="mail" value="Adresse mail" name="mail"><br><br>
+            </fieldset>
+
+
+            <fieldset class="purple"><legend><b>Adresse de livraison</b></legend>
+                    <label for="adresse">1. Adresse :</label>
+                    <textarea></textarea><br><br>
+
+                    <label for="codepostal">2. Code Postal :</label>
+                    <input type="text" id="zipcode" value="Code Postal"  name="zipcode"><br><br>
+
+                    <label for="livraison">3. Livraison :</label>
+                    <input type="text" id="livraison" value="Livraison" name="delivery"><br><br>
+            </fieldset>
+
+            <fieldset class="red"><legend><b>Informations de réglement</b></legend>
+                    <label for="typeofcard">1. Type de Carte Bancaire</label><br><br>
+                    <input type="radio" id="visa" name="Type of Card">
+                    <label for="visa">VISA</label><br><br>
+                    <input type="radio" id="mastercard" name="Type of Card">
+                    <label for="visa">MasterCard</label><br><br>
+
+                    <label for="numerocarte">2. Numéro de Carte :</label>
+                    <input type="number" id="number" value="Numéro de Carte" name="cardnumber"><br><br>
+
+                    <label for="password">3. Code de Sécurité :</label>
+                    <input type="password" id="password" name="password"><br><br>
+                    
+                    <label for="cardholdername">4. Nom du Titulaire :</label>
+                    <input type="text" id="cardholder" value="Nom du Titulaire" name="Cardholder Name">
+            </fieldset><br>
+
+            <input type="submit" value="J'achète !"><br><br>
+        </form>
+        
+       
+        
+        
+    </body>
+</html>

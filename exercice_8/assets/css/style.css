@@ -1,0 +1,23 @@
+.blue{
+
+    background-color: rgb(45, 101, 185);
+    background-size: 50px;
+
+}
+
+.purple{
+
+    background-color: rgb(153, 73, 153);
+    padding-left: 10px;
+}
+
+.red{
+
+    background-color: rgb(231, 82, 82);
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+input{
+    color: grey;
+}
